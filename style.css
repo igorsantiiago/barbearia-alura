@@ -1,0 +1,123 @@
+body {
+    background-color: #121212;
+}
+
+.principal {
+    background-color: #121212;
+    padding: 30px;
+}
+
+header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+    
+}
+
+/* Menu de Navegação */
+a {
+    color: #E1D9D1;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #24252A;
+    height: 8vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30%;
+
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 0px;
+    margin-right: 60%;
+}
+
+h1 {
+    color: #E1D9D1;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 1%;
+}
+
+
+h2 {
+    text-align: center;
+    color: #E1D9D1;
+    font-size: 35px;
+}
+
+p {
+    text-align: center;
+    color: #E1D9D1;
+}
+
+#objetivo {
+    font-size: 20px;
+}
+
+#objetivo-cor {
+    color: #008B8B;
+}
+
+#banner {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    border: 1px solid #008B8B;
+}
+
+/* Lista */
+
+.lista-itens {
+    color: #E1D9D1;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.beneficios {
+    background-color: #24252A;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: #E1D9D1;
+    font-size: 25px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imagem-beneficios {
+    margin-left: 20%;
+    width: 30%;
+    border: 1px solid #008B8B;
+}
