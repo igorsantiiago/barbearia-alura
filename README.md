@@ -1,2 +1,3 @@
-# barbearia-alura
-Projeto da aula de HTML e CSS parte 1 da Alura
+# Projeto da Barbearia Alura
+
+Esse foi o projeto final da aula de HTML e CSS da Alura
