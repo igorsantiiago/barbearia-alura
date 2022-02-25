@@ -1,26 +1,28 @@
 <!DOCTYPE html>
-
 <html lang="pt-br">
 
     <head>
         <meta charset="UTF-8">
         <title>Barbearia Alura</title>
+
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/barbershoplogo.png" type="image/gif">
     </head>
 
     <body>
 
         <header>
-
-            <nav>
-                <a class="logo" href="#">Barbearia Alura</a>
-                <ul class="nav-list">
-                    <li><a href="#"> Inicio</a></li>
-                    <li><a href="#"> Origem</a></li>
-                    <li><a href="#"> Contato</a></li>
-                </ul>
-            </nav>
-
+            <div class="box">
+                <nav>
+                    <a class="logo" href="index.html">Barbearia Alura</a>
+                    <ul class="nav-list">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <div class="principal">
@@ -28,13 +30,14 @@
 
             <p>Localizada no coração da cidade, a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade, e conquista novos clientes a cada dia.</p>
 
-            <p id="objetivo"><em>Nossa missão é:<strong id="objetivo-cor">"Proporcionar auto-estia e qualidade de vida aos clientes"</strong>.</em></p>
+            <p id="objetivo"><em>Nossa missão é:<strong id="objetivo-cor">"Proporcionar autoestima e qualidade de vida aos clientes"</strong>.</em></p>
 
             <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
 
-
+            <!-- Caso queira utilizar uma div para centralizar a imagem ao invés de display block -->
+            <!--<div class="imagem-descricao">-->
                 <img id="banner" src="img/barbershopexterior.png">
-
+            <!--</div>-->
         </div>
 
         <div class="beneficios">
@@ -49,6 +52,11 @@
                 <li class="lista-itens">Profissionais Qualificados</li>
             </ul>
         </div>
+
+        <footer>
+            <img src="img/logo-branco.png">
+            <p class="copyright">&copy; Copyright Barbearia Alura - 2022</p>
+        </footer>
 
     </body>
 
