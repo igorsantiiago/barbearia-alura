@@ -1,0 +1,105 @@
+body {
+    background-color: #121212;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E1D9D1;
+}
+
+/* Conteúdo do site */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo__contato {
+    font-size: 40px;
+    margin: 40px 0px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input__padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 14px 35px;
+    width: 55%;
+    background: #F2F3F4;
+    font-size: 0.9em;
+    font-weight: bold;
+    resize: none;
+    border-radius: 25px;
+}
+
+
+.preferencia__horario {
+    margin-top: 30px
+}
+
+.preferencia__horario select {
+    width: 7vw;
+    height: 3vh;
+    background: #F2F3F4;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.checkbox {
+    margin: 40px 0;
+}
+
+.send__button {
+    width: 50%;
+    padding: 15px;
+    background: #008B8B;
+    border: 1px solid #E1D9D1;;
+    border-radius: 20px;
+    margin: 0 0 20px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.send__button:hover {
+    opacity: 0.9;
+}
+
+.send__button:active {
+    opacity: 0.7;
+    transform: scale(0.9);
+    transition: 0.1s all;
+}
+
+.funcionamento {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+table {
+    margin: 20px 0 40px 28%;
+
+}
+
+thead {
+    background: #24252A;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+td, th {
+    border: 2px solid #E1D9D1;
+    padding: 15px 8px;
+    width: 10vw;
+    height: 2vh;
+    font-weight: bold;
+    text-align: center;
+}
