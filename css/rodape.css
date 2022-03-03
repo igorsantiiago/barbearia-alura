@@ -1,0 +1,41 @@
+.footer{
+    background:#24252A;
+    color:#E1D9D1;
+    text-align:center;
+    text-transform:uppercase;
+    padding:60px 0;
+
+    text-align:left;
+    -webkit-box-pack:start;
+    justify-content:flex-start
+
+}
+
+.footer-logo{
+    margin:15px 0;
+    width:90px;
+    height:41px
+}
+
+.footer-navegue{
+    margin-right:80px;
+    text-align:center;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.footer-navegue a{
+    color:#E1D9D1;
+    font-size:13px
+}
+
+.copyright {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #E1D9D1;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.copyright:after {
+    content: 'Copyright Barbearia Alura - 2022 ';
+}
